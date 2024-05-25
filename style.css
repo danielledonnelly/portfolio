@@ -69,7 +69,7 @@ body {
   padding-bottom: 30px;
   margin-bottom: 20px;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
-  width: 4% 
+  width: 45% 
 }
 
 .project-tile h2 {
@@ -109,7 +109,7 @@ body {
 }
 
 /* Media Query for smaller screens */
-@media screen and (max-width: 750px) {
+@media screen and (max-width: 751px) {
   .project-tile {
     width: 100%;
   }
