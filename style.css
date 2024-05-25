@@ -60,7 +60,7 @@ body {
 }
 
 .project-tile {
-  background-color: #444;
+  background-color: #414044;
   border-radius: 5px;
   padding: 20px;
   margin: 20px;
@@ -95,6 +95,8 @@ body {
   text-decoration: none;
   border-radius: 5px;
   margin: 5px;
+  width: 180px;
+  margin: auto;
 }
 
 .project-button:hover {
