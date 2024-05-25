@@ -69,15 +69,15 @@ body {
   padding-bottom: 30px;
   margin-bottom: 20px;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
-  width: 42%; /* Adjusted width */
+  width: 4% 
 }
 
 .project-tile h2 {
-  font-size: 2em;
+  font-size: 22px;
 }
 
 .project-tile p {
-  font-size: 1.2em;
+  font-size: 18px;
 }
 
 .project-links {
@@ -109,7 +109,7 @@ body {
 }
 
 /* Media Query for smaller screens */
-@media screen and (max-width: 751px) {
+@media screen and (max-width: 750px) {
   .project-tile {
     width: 100%;
   }
@@ -118,7 +118,7 @@ body {
 /* Additional spacing between project tiles */
 @media screen and (min-width: 751px) {
   .project-tile {
-    margin-right: 4%; /* Adjusted right margin */
+    margin-right: 1%;
   }
 
   /* Remove margin from last item in each row */
