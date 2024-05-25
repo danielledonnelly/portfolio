@@ -1,6 +1,7 @@
 /* General Styles */
 body {
-  margin: 0;
+  margin-left: 16px;
+  margin-right: 16px;
   font-family: Arial, sans-serif;
   background-color: #333;
   color: #fff;
@@ -69,7 +70,7 @@ body {
   padding-bottom: 30px;
   margin-bottom: 20px;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
-  width: 45% 
+  width: 46%;
 }
 
 .project-tile h2 {
@@ -108,15 +109,16 @@ body {
   background-color: #3b3a44;
 }
 
-/* Media Query for smaller screens */
-@media screen and (max-width: 751px) {
+/* Media Query for medium-sized screens */
+@media screen and (max-width: 900px) {
   .project-tile {
     width: 100%;
+    margin-right: 0; /* Reset margin */
   }
 }
 
 /* Additional spacing between project tiles */
-@media screen and (min-width: 751px) {
+@media screen and (min-width: 901px) {
   .project-tile {
     margin-right: 1%;
   }
