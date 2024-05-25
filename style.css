@@ -12,7 +12,7 @@ body {
   top: 0;
   left: 0;
   width: 100%;
-  background-color: #100d0d;
+  background-color: #131111;
   color: white;
   padding: 10px 0;
 }
@@ -36,15 +36,22 @@ body {
 
 /* Welcome Section Styles */
 #welcome-section {
-  height: 100vh; /* Height equal to viewport height */
   background-color: #222;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  padding: 50px;
+  text-align: center;
 }
 
-#welcome-section h1 {
-  font-size: 3em;
+.intro-text {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.intro-text h1 {
+  font-size: 2.5em;
+}
+
+.intro-text p {
+  font-size: 1.2em;
 }
 
 /* Projects Section Styles */
