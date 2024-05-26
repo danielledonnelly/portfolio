@@ -18,7 +18,7 @@ main {
   width: 100%;
   background-color: #222;
   color: white;
-  padding: 10px 0;
+  padding: 16px 0;
 }
 
 #navbar nav ul {
@@ -30,7 +30,7 @@ main {
 
 #navbar nav ul li {
   display: inline;
-  margin-right: 20px;
+  margin-right: 32px;
 }
 
 #navbar nav ul li a {
@@ -54,11 +54,11 @@ a:hover {
 }
 
 .intro-text h1 {
-  font-size: 40px;
+  font-size: 64px;
 }
 
 .intro-text p {
-  font-size: 19px;
+  font-size: 20px;
 }
 
 /* Projects Section Styles */
@@ -118,7 +118,7 @@ a:hover {
 }
 
 /* Media Query for small to medium-sized screens */
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 1000px) {
   .project-tile {
     width: 100%;
     margin-right: 0; 
@@ -126,7 +126,7 @@ a:hover {
 }
 
 /* Media Query for regular screens */
-@media screen and (min-width: 901px) {
+@media screen and (min-width: 1001px) {
   .project-tile {
     margin-right: 1%;
   }
