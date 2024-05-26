@@ -36,7 +36,7 @@ body {
 }
 
 a:hover {
-  color: #938eb5 !important; /* I don't get why I need this !important tag for this to work honestly... but I do */
+  color: #737089 !important; /* I don't get why I need this !important tag for this to work honestly... but I do */
 }
 
 /* Welcome Section Styles */
@@ -111,23 +111,23 @@ a:hover {
 
 .project-button:hover {
   background-color: #3b3a44;
+  color: rgb(204, 204, 204) !important;
 }
 
-/* Media Query for medium-sized screens */
+/* Media Query for small to medium-sized screens */
 @media screen and (max-width: 900px) {
   .project-tile {
     width: 100%;
-    margin-right: 0; /* Reset margin */
+    margin-right: 0; 
   }
 }
 
-/* Additional spacing between project tiles */
+/* Media Query for regular screens */
 @media screen and (min-width: 901px) {
   .project-tile {
     margin-right: 1%;
   }
-
-  /* Remove margin from last item in each row */
+  
   .project-tile:nth-child(2n) {
     margin-right: 0;
   }
