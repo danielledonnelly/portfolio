@@ -35,6 +35,10 @@ body {
   color: white;
 }
 
+a:hover {
+  color: #938eb5 !important; /* I don't get why I need this !important tag for this to work honestly... but I do */
+}
+
 /* Welcome Section Styles */
 #welcome-section {
   padding-top: 40px;
