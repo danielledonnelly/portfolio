@@ -78,7 +78,6 @@ a:hover {
   margin-bottom: 20px;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
   width: 46%;
-  margin-left:
 }
 
 .project-tile h2 {
@@ -151,6 +150,9 @@ a:hover {
 @media screen and (min-width: 1001px) and (max-width: 1200px) {
   .project-tile {
     width: 43%;
+  }
+  .project-tile:nth-child(2n) {
+    margin-right: 0;
   }
 }
 
