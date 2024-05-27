@@ -78,6 +78,7 @@ a:hover {
   margin-bottom: 20px;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
   width: 46%;
+  margin-left:
 }
 
 .project-tile h2 {
@@ -117,19 +118,17 @@ a:hover {
   color: rgb(204, 204, 204) !important;
 }
 
-/* Media Query for small screens */
+/* Media Query for extra small screens */
 @media screen and (max-width: 600px) {
   .project-tile {
     width: 100%;
-    margin-right: 0;
   }
 }
 
-/* Media Query for medium-sized screens */
-@media screen and (min-width: 601px) and (max-width: 1000px) {
+/* Media Query for small screens */
+@media screen and (min-width: 601px) and (max-width: 800px) {
   .project-tile {
-    width: 40%; /* Adjusted width for two tiles per row with some space */
-    margin-right: 2%;
+    width: 41%; 
   }
 
   .project-tile:nth-child(2n) {
@@ -137,14 +136,54 @@ a:hover {
   }
 }
 
-/* Media Query for regular screens */
-@media screen and (min-width: 1001px) {
+/* Media Query for medium screens */
+@media screen and (min-width: 801px) and (max-width: 1000px) {
+  .project-tile {
+    width: 42%; 
+  }
+
+  .project-tile:nth-child(2n) {
+    margin-right: 0;
+  }
+}
+
+/* Media Query for large screens */
+@media screen and (min-width: 1001px) and (max-width: 1200px) {
   .project-tile {
     width: 45%;
-    margin-right: 1%;
+  }
+
+
+/* Media Query for larger screens */
+@media screen and (min-width: 1201px) and (max-width: 1500px) {
+  .project-tile {
+    width: 46%;
   }
   
   .project-tile:nth-child(2n) {
+    margin-right: 0;
+  }
+}
+
+/* Media Query for extra large screens */
+@media screen and (min-width: 1501px) and (max-width: 1800px) {
+  .project-tile {
+    width: 47%; 
+  }
+  
+  .project-tile:nth-child(3n) {
+    margin-right: 0;
+  }
+}
+
+/* Media Query for ultra large screens */
+@media screen and (min-width: 1801px) {
+  .project-tile {
+    width: 48%; 
+    margin-right: 1%;
+  }
+  
+  .project-tile:nth-child(3n) {
     margin-right: 0;
   }
 }
