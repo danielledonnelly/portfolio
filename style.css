@@ -170,7 +170,7 @@ a:hover {
 /* Media Query for extra large screens */
 @media screen and (min-width: 1501px) and (max-width: 1800px) {
   .project-tile {
-    width: 45%; 
+    width: 46%; 
   }
   
   .project-tile:nth-child(3n) {
@@ -181,7 +181,7 @@ a:hover {
 /* Media Query for ultra large screens */
 @media screen and (min-width: 1801px) {
   .project-tile {
-    width: 46%; 
+    width: 47%; 
   }
   
   .project-tile:nth-child(3n) {
