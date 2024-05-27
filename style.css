@@ -119,16 +119,16 @@ a:hover {
 }
 
 /* Media Query for extra small screens */
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 650px) {
   .project-tile {
     width: 100%;
   }
 }
 
 /* Media Query for small screens */
-@media screen and (min-width: 601px) and (max-width: 800px) {
+@media screen and (min-width: 651px) and (max-width: 850px) {
   .project-tile {
-    width: 41%; 
+    width: 42%; 
   }
 
   .project-tile:nth-child(2n) {
@@ -137,9 +137,9 @@ a:hover {
 }
 
 /* Media Query for medium screens */
-@media screen and (min-width: 801px) and (max-width: 1000px) {
+@media screen and (min-width: 851px) and (max-width: 1000px) {
   .project-tile {
-    width: 42%; 
+    width: 43%; 
   }
 
   .project-tile:nth-child(2n) {
@@ -152,7 +152,7 @@ a:hover {
   .project-tile {
     width: 45%;
   }
-
+}
 
 /* Media Query for larger screens */
 @media screen and (min-width: 1201px) and (max-width: 1500px) {
