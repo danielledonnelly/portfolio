@@ -103,7 +103,7 @@ a:hover {
 .project-button {
   display: inline-block;
   padding: 10px 20px;
-  background-color: #555364;
+  background-color: #535664;
   color: #fff;
   text-decoration: none;
   border-radius: 5px;
@@ -113,7 +113,7 @@ a:hover {
 }
 
 .project-button:hover {
-  background-color: #3b3a44;
+  background-color: #3a3d44;
   color: rgb(204, 204, 204) !important;
 }
 
