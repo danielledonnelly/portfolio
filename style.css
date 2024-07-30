@@ -117,6 +117,21 @@ a:hover {
   color: rgb(204, 204, 204) !important;
 }
 
+.project-tags {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.tag {
+  display: inline-block;
+  background-color: transparent;
+  color: #cfcfcf;
+  border-radius: 3px;
+  margin-right: 5px;
+  font-size: 14px;
+}
+
+
 /* Media Query for mini screens */
 @media screen and (max-width: 650px) {
   .project-tile {
